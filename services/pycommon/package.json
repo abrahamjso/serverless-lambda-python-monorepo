@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "poetry install && python -m unittest discover"
+    "test": "virtualenv venv --python=python3 && source venv/bin/activate && poetry install && python -m unittest discover"
   },
   "license": "ISC",
   "devDependencies": {
