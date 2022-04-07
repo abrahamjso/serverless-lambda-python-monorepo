@@ -6,6 +6,7 @@ image:
   file: gitpod.Dockerfile
 
 tasks:
+  - before: poetry install
   - init: yarn install
 
 
